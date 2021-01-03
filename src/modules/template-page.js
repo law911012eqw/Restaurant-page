@@ -23,7 +23,7 @@ class Template {
         //DOM property manipulation
         mainTemplate.id = "main-template";
         mainHeader.id = "main-header";
-        mainLogo.src = '/dist/images/LogoMakr.png';
+        mainLogo.src = 'dist/images/LogoMakr.png';
         mainLogo.height = '100';
         mainHeaderText.textContent = "Blueswan";
         mainNavBar.id = "main-nav-bar";

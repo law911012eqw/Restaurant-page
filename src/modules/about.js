@@ -32,7 +32,7 @@ function aboutPage() {
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     
     Praesent id tortor convallis, porttitor ex sed, sodales orci.`;
-    aboutImage.src = '/dist/images/front.jpg';
+    aboutImage.src = 'dist/images/front.jpg';
     paraSection2.textContent = `     Curabitur molestie metus elit, in condimentum ligula hendrerit vitae.
      Fusce consequat et dui quis laoreet. Mauris convallis nisl vitae pharetra 
      suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
