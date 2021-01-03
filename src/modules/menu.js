@@ -1,6 +1,6 @@
 'use strict'
 
-const menuPage = (() => {
+function menuPage() {
     const mainTemplate = document.getElementById('main-template');
     const menuPageWrapper = document.createElement('div');
     const menuBackground = document.createElement('div');
@@ -66,6 +66,6 @@ const menuPage = (() => {
             foodLabel.append(foodTitle, foodPrice);
         }
     })
-})();
+};
 
-export default menuPage;
+export { menuPage };

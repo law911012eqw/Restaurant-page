@@ -1,6 +1,6 @@
 'use strict'
 
-const aboutPage = (() => {
+function aboutPage() {
     const mainTemplate = document.getElementById('main-template');
     const aboutPageWrapper = document.createElement('div');
     const aboutPageHeader = document.createElement('h1');
@@ -48,5 +48,5 @@ const aboutPage = (() => {
     divSection1.appendChild(paraSection1);
     divSection2.appendChild(paraSection2);
 
-})();
-export default aboutPage;
+};
+export { aboutPage };

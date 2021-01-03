@@ -1,15 +1,16 @@
 'use strict'
 
-const homePage = (() => {
+function homePage() {
     const imageSources = ["/dist/images/seafood-dish1.jpg", 
     "/dist/images/seafood-dish2.jpg", 
     "/dist/images/salmon1.jpg", 
     "/dist/images/salmon2.jpg"];
 
     //DOM objects
+    console.log("Greetings, Sir/Ma'am")
     const mainTemplate = document.getElementById('main-template');
     const firstHomeFeatureContainer = document.createElement('div');
-    const firstImageLabel = document.createElement('div'); console.log()
+    const firstImageLabel = document.createElement('div');
     const firstLabelTitle = document.createElement('h2');
     const firstLabelText = document.createElement('p');
     const lastHomeFeatureContainer = document.createElement('div');
@@ -114,7 +115,6 @@ const homePage = (() => {
         imgFood.src = imageSources[index];
         index++;
     }, 4000);
+};
 
-})();
-
-export default homePage;
+export { homePage };
