@@ -134,7 +134,7 @@ a{
     color: black;
     margin-top: -89px;
     padding: 115px;
-    background: url('/dist/images/scroll.gif');
+    background: url('images/scroll.gif');
     background-size: 800px;
     background-repeat: no-repeat;
     text-align: center;
@@ -182,7 +182,7 @@ a{
 }
 /* MENU SECTION */
 #menu-background{
-    background: url('/dist/images/seafood-dish1.jpg');
+    background: url('images/seafood-dish1.jpg');
     background-size: 800px;
     position: relative;
     z-index: 1;
