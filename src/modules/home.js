@@ -1,10 +1,10 @@
 'use strict'
 
 function homePage() {
-    const imageSources = ["dist/images/seafood-dish1.jpg", 
-    "dist/images/seafood-dish2.jpg", 
-    "dist/images/salmon1.jpg", 
-    "dist/images/salmon2.jpg"];
+    const imageSources = ["images/seafood-dish1.jpg", 
+    "images/seafood-dish2.jpg", 
+    "images/salmon1.jpg", 
+    "images/salmon2.jpg"];
 
     //DOM objects
     console.log("Greetings, Sir/Ma'am")
@@ -55,9 +55,9 @@ function homePage() {
     Etiam sed purus metus. Vivamus tempus eros a purus tristique, ac vehicula orci gravida. `
 
     //image dish sources
-    imgFood.src = "dist/images/salmon1.jpg";
+    imgFood.src = "images/salmon1.jpg";
     imgFood.width = '400';
-    imgPlace.src = 'dist/images/blue.jpg'
+    imgPlace.src = 'images/blue.jpg'
     imgPlace.width = '400';
 
     //restaurant short description and avalability output
@@ -71,7 +71,7 @@ function homePage() {
     homeAvailability.textContent = "Availability";
     weekdaysAvailability.textContent = "Monday-Friday: 9:30a.m - 8:00p.m";
     weekendsAvailability.textContent = "Saturday-Sunday: 9:30a.m - 5:00p.m";
-    endImage.src = 'dist/images/seaside-resort.jpg';
+    endImage.src = 'images/seaside-resort.jpg';
 
     //newsletter form
     input.type = "text";
