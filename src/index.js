@@ -5,10 +5,11 @@ import { aboutPage } from './modules/about.js';
 import { contactsPage } from './modules/contacts.js';
 import { Map } from './map.js';
 
-Template.rendertemplate();
-homePage();
-navbar();
-
+(function(){
+  Template.rendertemplate();
+  homePage();
+  navbar();
+})();
 //DOM objects
 function navbar() {
   const content = document.getElementById('content');
