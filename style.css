@@ -292,8 +292,10 @@ a{
     height: 500px;
 }
 .contact-box{
-    height: 300px;
-    background:rgb(172, 216, 212);
+    height: 540px;
+    width: 800px;
+    background: url('/dist/images/shell.jpg');
+    margin-top: -15px;
 }
 .contacts-header{
     color: rgb(145,25,25);
@@ -325,13 +327,13 @@ a{
 }
 .contacts-info-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     position: relative;
     width: 800px;
-    height:280px;
-    transform: scale(1.015);
-    background: rgb(253, 253, 253);
+    height:450px;
+    background: rgba(253, 253, 253, 0.1);
     box-shadow: 0 0 4px rgba(1,1,1,0.5);
     z-index: 5;
 }
@@ -361,6 +363,6 @@ a{
     margin: 25px;
 }
 #map{
-    margin-top: 62px;
+    position:relative;
     z-index: 6;
 }
