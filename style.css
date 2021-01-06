@@ -294,7 +294,7 @@ a{
 .contact-box{
     height: 540px;
     width: 800px;
-    background: url('/dist/images/shell.jpg');
+    background: url('images/shell.jpg');
     margin-top: -15px;
 }
 .contacts-header{
